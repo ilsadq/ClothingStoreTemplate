@@ -1,1 +1,1 @@
-# ClothingTtoreTemplate
+# ClothingStoreTemplate
