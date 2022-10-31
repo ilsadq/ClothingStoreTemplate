@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 // Layouts
-import MainLayout from './layouts/MainLayout'
+import MainLayout from './layouts/MainLayout/MainLayout'
 // Pages
-import Landing from './pages/landing/Landing'
+import Landing from './pages/Landing/Landing'
 
 const App = () => {
   return (

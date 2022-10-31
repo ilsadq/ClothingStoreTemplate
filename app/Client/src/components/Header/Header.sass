@@ -1,0 +1,26 @@
+.header
+  @apply h-20 grid grid-cols-3 items-center
+  @apply border-x
+  @apply text-neutral-900 bg-white transition-colors
+
+.navbar
+  grid-area: 1 / 2 / 2 / 3
+  @apply flex justify-center items-center
+
+.links__wrapper
+  @apply h-10 flex items-center gap-x-6 px-4
+  @apply border rounded-full shadow-sm
+  .link
+    @apply hover:text-pink-400 transition-colors
+  .btn-primary
+    @apply text-sky-400 hover:text-sky-600
+
+.actions__wrapper
+  grid-area: 1 / 3 / 2 / 4
+  @apply flex items-center justify-center gap-x-4
+  .btn
+    @apply w-10 h-10
+    @apply flex items-center justify-center
+    @apply rounded-full border shadow-sm
+    .icon
+      @apply w-6 h-6

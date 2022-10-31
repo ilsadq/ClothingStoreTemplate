@@ -1,6 +1,8 @@
+import './Footer.sass'
+
 const Footer = () => {
   return (
-    <footer className="h-20 border-x bg-white">
+    <footer className="footer">
       Footer
     </footer>
   )

@@ -1,7 +1,9 @@
+import './Landing.sass'
+
 const Landing = () => {
   return (
-    <div className="container bg-white border">
-      <h1>Landing1</h1>
+    <div className="wrapper">
+      <h1 className="dark:text-blue-500">Landing</h1>
     </div>
   )
 }
