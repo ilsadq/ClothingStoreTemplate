@@ -4,7 +4,7 @@ import styles from '../styles/index.module.sass';
 
 export default function Home() {
   return (
-    <main className='flex-auto'>
+    <main className={styles.page}>
       <Head>
         <title>Index page</title>
       </Head>
